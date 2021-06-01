@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> </title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header  bg_1">
+        <div class="fixed-container">  
+            <div class="header-top top-section">
+          <div class="top-section right-block">
+            <div class="hamburger-menu">
+              <input id="menu__toggle" type="checkbox" />
+              <label class="menu__btn" for="menu__toggle">
+                <span></span>
+              </label>
+              <ul class="menu__box">
+                <li><a class="menu__item" href="#">Main</a></li>
+                <li><a class="menu__item" href="#">Gallery</a></li>
+                <li><a class="menu__item" href="#">News</a></li>
+                <li><a class="menu__item" href="#">Profile</a></li>
+              </ul>
+            </div>
+            <div class="top-section__logo">
+                <img src="img/Group.png" class="logo" alt="logo">
+            </div> 
+            <nav class="top-section__menu">
+            <ul class="top-section__list">
+             <li class="top-section__item"><a href="#">Main</a></li>
+             <li class="top-section__item"><a href="#">Gallery</a></li>
+             <li class="top-section__item"><a href="#">News</a></li>
+             <li class="top-section__item"><a href="#">Profile</a></li>
+            </ul>
+            </nav>
+            
+          </div>
+             <div class="top-section__address">
+                <address class="header__tel">
+                    <a href="tel:+5(443)49000000">+544 3490 00000</a>
+                </address>
+                <a class="header__tel-ico" href="tel:+5(443)49000000"> 
+                  <i class="fas fa-phone-square"></i>
+                </a>
+
+              <span class="header__span">Звони скорее!</span>
+             </div>
+
+            </div>
+            <div class="header-bottom bottom-section">
+              <h2 class=" bottom-section__headline">Найдено 349 котов</h2>
+            </div>
+        </div>     
+ </header>
+
+<section class="section-portfolio">
+    <div class="fixed-container">
+     <div class="section-portfolio checkbox-section">
+       <span class="checkbox-section__headline">Сортировать по:</span>
+       <div class="checkbox-menu ">
+        <ul class="topmenu">
+          <li><a class="submenu-link" href="#">Цене<i class="fa fa-angle-down"></i></a>
+            <ul class="submenu">
+              <li><a id="PriceLow" href="#">Меньше</a></li>
+              <li><a id="PriceHiger" href="#">Больше</a></li>
+            </ul>
+          </li>
+          <li><a class="submenu-link" href="#">Возрасту<i class="fa fa-angle-down"></i></a>
+            <ul class="submenu">
+              <li><a id="AgeLow" href="#">Меньше</a></li>
+              <li><a id="AgeHigher" href="#">Больше</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+     </div>
+     <div class="section-portfolio__profiles">
+       <article class="section-portfolio__card inform-card">
+        <h4 class="visually-hidden">Информация о коте</h4>
+        <img src="img/2.jpg" class="inform-card__img" alt="">
+        <svg class="svg" width="46" height="42" viewBox="0 0 46 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M33.7812 0.695312C31.2851 0.695312 28.9966 1.4863 26.9794 3.04634C25.0456 4.54197 23.758 6.44693 23 7.83214C22.242 6.44684 20.9544 4.54197 19.0206 3.04634C17.0034 1.4863 14.7149 0.695312 12.2188 0.695312C5.25298 0.695312 0 6.39293 0 13.9485C0 22.1112 6.55347 27.696 16.4746 36.1505C18.1593 37.5863 20.0689 39.2138 22.0538 40.9494C22.3154 41.1785 22.6514 41.3047 23 41.3047C23.3486 41.3047 23.6846 41.1785 23.9462 40.9495C25.9312 39.2136 27.8408 37.5862 29.5265 36.1496C39.4465 27.696 46 22.1112 46 13.9485C46 6.39293 40.747 0.695312 33.7812 0.695312Z" fill="white"/>
+        </svg>
+        <span class="inform-card__discount">-40%</span>
+       <h3 class="inform-card__headline" >Кот полосатый</h3>
+        <div class=" inform-card__props">
+            <span class="inform-card__desc color">Коричневый окрас</span>
+            <span class="inform-card__desc age" ><span class="age-data">2 мес.</span>Возраст</span>
+            <span class="inform-card__desc paws" ><span class="paws-quantity">4</span>Кол-во лап</span>
+        </div>	
+        <div class ="inform-card__price"> <span class="cat_price">30 000</span> руб.</div>
+        <button class ="inform-card__button avalible">Купить </button>
+       </article>
+       <article class="section-portfolio__card inform-card">
+        <h4 class="visually-hidden">Информация о коте</h4>
+        <img src="img/1.jpg" class="inform-card__img" alt="">
+        <svg class="svg" width="46" height="42" viewBox="0 0 46 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M33.7812 0.695312C31.2851 0.695312 28.9966 1.4863 26.9794 3.04634C25.0456 4.54197 23.758 6.44693 23 7.83214C22.242 6.44684 20.9544 4.54197 19.0206 3.04634C17.0034 1.4863 14.7149 0.695312 12.2188 0.695312C5.25298 0.695312 0 6.39293 0 13.9485C0 22.1112 6.55347 27.696 16.4746 36.1505C18.1593 37.5863 20.0689 39.2138 22.0538 40.9494C22.3154 41.1785 22.6514 41.3047 23 41.3047C23.3486 41.3047 23.6846 41.1785 23.9462 40.9495C25.9312 39.2136 27.8408 37.5862 29.5265 36.1496C39.4465 27.696 46 22.1112 46 13.9485C46 6.39293 40.747 0.695312 33.7812 0.695312Z" fill="white"/>
+          <g id="layer1">
+            <path id="svg_2" d="M33.7812 0.695312C31.2851 0.695312 28.9966 1.4863 26.9794 3.04634C25.0456 4.54197 23.758 6.44693 23 7.83214C22.242 6.44684 20.9544 4.54197 19.0206 3.04634C17.0034 1.4863 14.7149 0.695312 12.2188 0.695312C5.25298 0.695312 0 6.39293 0 13.9485C0 22.1112 6.55347 27.696 16.4746 36.1505C18.1593 37.5863 20.0689 39.2138 22.0538 40.9494C22.3154 41.1785 22.6514 41.3047 23 41.3047C23.3486 41.3047 23.6846 41.1785 23.9462 40.9495C25.9312 39.2136 27.8408 37.5862 29.5265 36.1496C39.4465 27.696 46 22.1112 46 13.9485C46 6.39293 40.747 0.695312 33.7812 0.695312Z"/>
+           </g>
+        </svg>
+       <h3 class="inform-card__headline" >Кот полосатый</h3>
+        <div class=" inform-card__props">
+            <span class="inform-card__desc color">Коричневый окрас</span>
+            <span class="inform-card__desc age" ><span class="age-data">2 мес.</span>Возраст</span>
+             <span class="inform-card__desc paws" ><span class="paws-quantity">4</span>Кол-во лап</span>
+        </div>	
+        <div class ="inform-card__price"><span class="cat_price">40 000</span> руб.</div>
+        <button class ="inform-card__button invalid " disabled>Продан </button>
+       </article>
+       <article class="section-portfolio__card inform-card">
+        <h4 class="visually-hidden">Информация о коте</h4>
+        <img src="img/3.jpg" class="inform-card__img" alt="">
+        <svg class="svg" width="46" height="42" viewBox="0 0 46 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M33.7812 0.695312C31.2851 0.695312 28.9966 1.4863 26.9794 3.04634C25.0456 4.54197 23.758 6.44693 23 7.83214C22.242 6.44684 20.9544 4.54197 19.0206 3.04634C17.0034 1.4863 14.7149 0.695312 12.2188 0.695312C5.25298 0.695312 0 6.39293 0 13.9485C0 22.1112 6.55347 27.696 16.4746 36.1505C18.1593 37.5863 20.0689 39.2138 22.0538 40.9494C22.3154 41.1785 22.6514 41.3047 23 41.3047C23.3486 41.3047 23.6846 41.1785 23.9462 40.9495C25.9312 39.2136 27.8408 37.5862 29.5265 36.1496C39.4465 27.696 46 22.1112 46 13.9485C46 6.39293 40.747 0.695312 33.7812 0.695312Z" fill="white"/>
+        </svg>
+       <h3 class="inform-card__headline" >Кот полосатый</h3>
+        <div class=" inform-card__props">
+            <span class="inform-card__desc color">Коричневый окрас</span>
+            <span class="inform-card__desc age" ><span class="age-data">2 мес.</span>Возраст</span>
+             <span class="inform-card__desc paws" ><span class="paws-quantity">4</span>Кол-во лап</span>
+        </div>	
+        <div class ="inform-card__price"><span class="cat_price">20 000</span> руб.</div>
+        <button class ="inform-card__button avalible">Купить </button>
+       </article>
+       <article class="section-portfolio__card inform-card">
+        <h4 class="visually-hidden">Информация о коте</h4>
+        <img src="img/2.jpg" class="inform-card__img" alt="">
+        <svg class="svg" width="46" height="42" viewBox="0 0 46 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M33.7812 0.695312C31.2851 0.695312 28.9966 1.4863 26.9794 3.04634C25.0456 4.54197 23.758 6.44693 23 7.83214C22.242 6.44684 20.9544 4.54197 19.0206 3.04634C17.0034 1.4863 14.7149 0.695312 12.2188 0.695312C5.25298 0.695312 0 6.39293 0 13.9485C0 22.1112 6.55347 27.696 16.4746 36.1505C18.1593 37.5863 20.0689 39.2138 22.0538 40.9494C22.3154 41.1785 22.6514 41.3047 23 41.3047C23.3486 41.3047 23.6846 41.1785 23.9462 40.9495C25.9312 39.2136 27.8408 37.5862 29.5265 36.1496C39.4465 27.696 46 22.1112 46 13.9485C46 6.39293 40.747 0.695312 33.7812 0.695312Z" fill="white"/>
+        </svg>
+       <h3 class="inform-card__headline" >Кот полосатый</h3>
+        <div class=" inform-card__props">
+            <span class="inform-card__desc color">Коричневый окрас</span>
+            <span class="inform-card__desc age" ><span class="age-data">2 мес.</span>Возраст</span>
+             <span class="inform-card__desc paws" ><span class="paws-quantity">4</span>Кол-во лап</span>
+        </div>	
+        <div class ="inform-card__price"><span class="cat_price">25 000</span> руб.</div>
+        <button class ="inform-card__button avalible">Купить </button>
+       </article>
+       <article class="section-portfolio__card inform-card">
+        <h4 class="visually-hidden">Информация о коте</h4>
+        <img src="img/3.jpg" class="inform-card__img" alt="">
+        <svg class="svg" width="46" height="42" viewBox="0 0 46 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M33.7812 0.695312C31.2851 0.695312 28.9966 1.4863 26.9794 3.04634C25.0456 4.54197 23.758 6.44693 23 7.83214C22.242 6.44684 20.9544 4.54197 19.0206 3.04634C17.0034 1.4863 14.7149 0.695312 12.2188 0.695312C5.25298 0.695312 0 6.39293 0 13.9485C0 22.1112 6.55347 27.696 16.4746 36.1505C18.1593 37.5863 20.0689 39.2138 22.0538 40.9494C22.3154 41.1785 22.6514 41.3047 23 41.3047C23.3486 41.3047 23.6846 41.1785 23.9462 40.9495C25.9312 39.2136 27.8408 37.5862 29.5265 36.1496C39.4465 27.696 46 22.1112 46 13.9485C46 6.39293 40.747 0.695312 33.7812 0.695312Z" fill="white"/>
+        </svg>
+        <span class="inform-card__discount">-40%</span>
+       <h3 class="inform-card__headline" >Кот полосатый</h3>
+        <div class=" inform-card__props">
+            <span class="inform-card__desc color">Коричневый окрас</span>
+            <span class="inform-card__desc age" ><span class="age-data">2 мес.</span>Возраст</span>
+             <span class="inform-card__desc paws" ><span class="paws-quantity">4</span>Кол-во лап</span>
+        </div>	
+        <div class ="inform-card__price"> <span class="cat_price">30 000</span> руб.</div>
+        <button class ="inform-card__button avalible">Купить </button>
+       </article>
+       <article class="section-portfolio__card inform-card">
+        <h4 class="visually-hidden">Информация о коте</h4>
+        <img src="img/1.jpg" class="inform-card__img" alt="">
+        <svg class="svg" width="46" height="42" viewBox="0 0 46 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M33.7812 0.695312C31.2851 0.695312 28.9966 1.4863 26.9794 3.04634C25.0456 4.54197 23.758 6.44693 23 7.83214C22.242 6.44684 20.9544 4.54197 19.0206 3.04634C17.0034 1.4863 14.7149 0.695312 12.2188 0.695312C5.25298 0.695312 0 6.39293 0 13.9485C0 22.1112 6.55347 27.696 16.4746 36.1505C18.1593 37.5863 20.0689 39.2138 22.0538 40.9494C22.3154 41.1785 22.6514 41.3047 23 41.3047C23.3486 41.3047 23.6846 41.1785 23.9462 40.9495C25.9312 39.2136 27.8408 37.5862 29.5265 36.1496C39.4465 27.696 46 22.1112 46 13.9485C46 6.39293 40.747 0.695312 33.7812 0.695312Z" fill="white"/>
+        </svg>
+       <h3 class="inform-card__headline" >Кот полосатый</h3>
+        <div class=" inform-card__props">
+            <span class="inform-card__desc color">Коричневый окрас</span>
+            <span class="inform-card__desc age" ><span class="age-data">2 мес.</span>Возраст</span>
+             <span class="inform-card__desc paws" ><span class="paws-quantity">4</span>Кол-во лап</span>
+        </div>	
+        <div class ="inform-card__price"><span class="cat_price">10 000</span> руб.</div>
+        <button class ="inform-card__button invalid" disabled>Продан</button>
+       </article>
+     </div>
+     <div class= "section-portfolio__button ">
+         <button class= "section-portfolio__bottom-button " >
+          Показать еще 20
+         </button>
+     </div>
+     </div>  
+     <a class="button"></a>
+</section>
+
+    <footer class="footer">
+        <div class="fixed-container">
+          <div class="footer__left-block headline-block" >
+            <h2 class="headline-block__headline">Успей купить!</h2>
+            <span class="headline-block__text">Подпишись и успей словить все акции</span>
+          </div>
+          <div class="footer__right-block form-block" >
+            <span id="result">
+              
+            </span>
+            <form class="form-block__form" method="post" action="https://echo.htmlacademy.ru/">
+              <label for="email"></label>
+              <input class="form-block__input" type="email" id="email"   placeholder="Email">
+              <input type="submit"   class="form-block__button" value="Подписаться" >
+            </form>
+            <div class="form-block checkbox">
+              <input class="custom-checkbox" name="check" type="checkbox" id="check" checked><label for="check">Подписаться на новости</label>
+            </div>
+        </div>
+        </div>
+    </footer>
+<script src="https://kit.fontawesome.com/f8c74cbb7f.js" crossorigin="anonymous"></script>
+<script src = "js/jquery-3.4.1.min.js"></script>
+<script src="js/my_scripts.js"></script>
+<script src="js/jquery.sortElements.js"></script>
+</body>
+</html>

@@ -1,0 +1,387 @@
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header .fixed-container {
+        padding: 35px 25px 70px 25px;
+      }
+    .logo {
+        max-width: 80%;
+    }
+    .top-section__logo {
+        margin-right: 35px;
+    }
+    .header__tel {
+        font-size: 20px;
+      }
+    .header__span{
+        font-size: 16px;
+      }
+    .bottom-section__headline{
+        font-size: 34px;
+  
+    }
+    .section-portfolio .fixed-container{
+        padding: 40px 25px 85px 25px;
+       
+    }
+    .inform-card {
+       flex-basis: 48%;
+       
+    }
+    .headline-block__headline{
+        font-size: 43px;
+    }
+    .headline-block__text{
+        font-size: 22px;
+        
+    }
+    #result {
+        font-size: 14px;
+        height: 10%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .checkbox-section__headline{
+        font-size: 16px;
+      }
+      .submenu-link{
+        font-size: 16px;
+      }
+  
+    .header .fixed-container {
+        padding: 35px 15px 55px 15px;
+    
+      }
+    .header__tel{
+        display: none;
+    }
+    
+    .right-block{
+        display: flex;
+        align-self: center;
+
+    }
+    .top-section__menu {
+        display: none; 
+      }
+    .hamburger-menu{
+        display: flex;
+    }
+    .top-section__logo {
+        display: none;
+    }
+    .header__tel-ico{
+        display: flex;
+        font-size: 46px;
+    }
+    .header__span{
+        display: none;
+    }
+    .bottom-section__headline{
+        font-size: 28px; 
+    }
+    .section-portfolio .fixed-container{
+        padding: 30px 15px 75px 15px;
+    }
+    .inform-card__img {
+       max-width: 100%;
+    }
+    .inform-card {
+      flex-basis: 48%;
+    }
+    footer .fixed-container {
+      flex-direction: column;
+      padding: 60px 15px;
+    }
+    .headline-block{
+        align-self: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .headline-block__headline{
+        margin: 0 0 20px 0;
+    }
+    .form-block{
+        align-self: center;
+    }
+    .checkbox{
+        align-self: flex-start;
+        }
+        #result {
+            font-size: 14px;
+            height: 15%;
+            right: 20%;
+        }
+    
+}
+
+@media (min-width:480px) and (max-width:767px ) {
+    .checkbox-section{
+     flex-direction: column;
+       }
+    .checkbox-section__headline{
+        font-size: 16px;
+        margin-bottom: 25px;
+      }
+      .submenu-link{
+        font-size: 16px;
+      }
+      .topmenu {
+         justify-content: flex-start;
+   
+       }
+    
+    .bg_1{
+    background-position: center;
+   background-size: 230%;
+      }
+      .header .fixed-container {
+        padding: 35px 15px 35px 15px;
+    
+      }
+      .hamburger-menu{
+        padding: 3px;
+    }
+    .header__tel{
+        display: none;
+    }
+    
+    .right-block{
+        display: flex;
+        align-self: center;
+
+    }
+    .top-section__menu {
+        display: none; 
+      }
+    .hamburger-menu{
+        display: flex;
+    }
+    .top-section__logo {
+        display: none;
+    }
+    .header__tel-ico{
+        font-size: 42px;
+        display: flex;
+    }
+    .header__span{
+        display: none;
+    }
+    .bottom-section__headline{
+        font-size: 24px; 
+        margin-top: 35px;
+    }
+    .section-portfolio .fixed-container{
+        padding: 30px 15px 75px 15px;
+    }
+    .inform-card__img {
+       max-width: 100%;
+    }
+    .inform-card {
+      flex-basis: 100%;
+    }
+    .section-portfolio__bottom-button {
+        flex-basis: 100%;
+        
+        
+    }
+    footer .fixed-container {
+        flex-direction: column;
+        padding: 60px 15px;
+      }
+      .headline-block{
+          align-self: center;
+          text-align: center;
+          margin-bottom: 30px;
+      }
+      .headline-block__headline{
+          margin: 0 0 20px 0;
+          font-size: 40px;
+      }
+      .headline-block__text{
+        font-size: 24px;  
+    }
+    .form-block{
+    align-self: center;
+      }
+    .checkbox{
+    align-self: flex-start;
+     }
+    .form-block__form {
+    display: flex;
+    flex-direction: column; 
+    }
+    .form-block__input {
+        margin-right: 0px;
+        margin-bottom: 30px;
+        width: 76%;
+        
+    }
+    .form-block__button{
+       align-self: center;
+       
+    }
+    #result {
+        font-size: 13px;
+        height: 15%;
+        right: 60%;
+        width: 30%;
+    }
+}
+
+@media (min-width:320px) and (max-width: 480px) {
+    .checkbox-section{
+        flex-direction: column;
+          }
+    .checkbox-section__headline{
+           font-size: 14px;
+           margin-bottom: 25px;
+         }
+         .submenu-link{
+           font-size: 14px;
+           margin-top: 15px;
+         }
+         .topmenu {
+            flex-direction: column;
+          }
+          .submenu-link i{
+         font-size: 16px;
+          }
+          .submenu a {
+            font-size: 14px;
+        }
+        .button {   
+            width: 50px;   
+            height: 50px;
+            bottom: 10px;   
+            right: 10px;   
+            margin: 20px;    
+         }
+  
+    .bg_1{
+        background-position: top;
+       background-size: cover;
+          }
+        .header .fixed-container {
+         padding: 30px 15px 30px 15px;
+          }
+          .hamburger-menu{
+            padding: 3px;
+        }
+        .menu__btn {
+            width: 30px;
+            height: 30px;
+          }
+        .header__tel{
+            display: none;
+        }
+        
+        .right-block{
+            display: flex;
+            align-self: center;
+    
+        }
+        .top-section__menu {
+            display: none; 
+          }
+        .hamburger-menu{
+            display: flex;
+        }
+        .top-section__logo {
+            display: none;
+        }
+        .header__tel-ico{
+            font-size: 36px;
+            display: flex;
+        }
+        .header__span{
+            display: none;
+        }
+        .bottom-section__headline{
+            font-size: 20px; 
+            margin-top: 35px;
+        }
+        .section-portfolio .fixed-container{
+            padding: 25px 15px 60px 15px;
+        }
+        .section-portfolio__profiles{
+            margin: 25px 0 55px 0;
+        }
+        .inform-card__img {
+           max-width: 100%;
+        }
+        .inform-card {
+          flex-basis: 100%;
+        }
+        .age-data, .paws-quantity {
+            font-size: 12px;
+        }
+        .color {
+            padding-left: 15px;
+        }
+        .section-portfolio__bottom-button {
+            flex-basis: 100%;    
+        }
+        .inform-card__headline{
+            font-size: 20px;
+            margin-top: 25px;
+        }
+        .inform-card__button {
+            font-size: 14px;  
+        }
+        .inform-card__props {
+            font-size: 10px;
+            line-height: 12px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            }
+        .inform-card__price{
+         font-size: 18px;
+        margin-bottom: 20px;
+         }
+        footer .fixed-container {
+            flex-direction: column;
+            padding: 60px 15px;
+          }
+          .headline-block{
+              align-self: center;
+              text-align: center;
+              margin-bottom: 30px;
+          }
+          .headline-block__headline{
+              margin: 0 0 20px 0;
+              font-size: 36px;
+          }
+          .headline-block__text{
+            font-size: 22px;  
+        }
+        .form-block{
+        align-self: center;
+          }
+        .checkbox{
+        align-self: flex-start;
+         }
+        .form-block__form {
+        display: flex;
+        flex-direction: column; 
+        }
+        .form-block__input {
+            margin-right: 0px;
+            margin-bottom: 30px;
+            width: 76%;
+            
+        }
+        .form-block__button{
+           align-self: center;
+           
+        }
+        #result {
+            font-size: 11px;
+            height: 10%;
+            right: 50%;
+            width: 35%;
+        }
+}
+
+    
